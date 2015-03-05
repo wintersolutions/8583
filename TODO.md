@@ -1,4 +1,4 @@
-
+## TODO
 * mti_required : or something of the sort to indicate which fields are
      required/mirrored/conditional for each message type
 

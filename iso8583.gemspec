@@ -8,19 +8,19 @@ Gem::Specification.new do |s|
   s.name        = "iso8583"
   s.version     = ISO8583::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Tim Becker", "Slava Kravchenko"]
+  s.authors     = ["Tim Becker", "Slava Kravchenko", "Tonni Aagesen", "Moritz Winter"]
   s.email       = ["tim.becker@kuriositaet.de","cordawyn@gmail.com"]
   s.homepage    = "http://github.com/a2800276/8583/"
   s.summary     = "Ruby implementation of ISO 8583 financial messaging"
   s.description = "Ruby implementation of ISO 8583 financial messaging"
  
   s.required_rubygems_version = ">= 1.3.6"
-  s.required_ruby_version     = "<2"
+  s.required_ruby_version     = ">= 2.2"
   s.rubyforge_project         = "iso8583"
   s.has_rdoc                  = true
   
   s.requirements << "none"
   
-  s.files        = Dir.glob("{lib,test}/**/*") + %w(AUTHORS CHANGELOG LICENSE README TODO)
+  s.files        = Dir.glob("{lib,test}/**/*") + %w(AUTHORS CHANGELOG LICENSE README.md TODO.md)
   s.require_path = 'lib'
 end
