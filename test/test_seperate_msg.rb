@@ -1,3 +1,5 @@
+# encoding: ASCII
+
 require 'lib/iso8583'
 require 'lib/iso8583/berlin'
 require 'test/unit'

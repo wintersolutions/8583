@@ -1,8 +1,11 @@
+# encoding: ASCII
+
 require 'lib/iso8583'
 require 'lib/iso8583/berlin'
 require 'test/unit'
 
 include ISO8583
+
 
 class MessageTest < Test::Unit::TestCase
   def test_create_empty

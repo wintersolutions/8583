@@ -1,3 +1,5 @@
+# encoding: ASCII
+
 module ISO8583
 
   class Field
